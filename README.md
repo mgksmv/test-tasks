@@ -12,4 +12,6 @@
 <br><br>
 ```npm i``` - устанавливаем пакеты npm
 <br><br>
+Запускаем ```npm run dev``` или же делаем билд ```npm run build```
+<br><br>
 ```php artisan serve``` - запускаем локальный сервер

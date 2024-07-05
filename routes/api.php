@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\API\TaskController;
+use App\Http\Controllers\API\V1\TaskController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth')->prefix('api/v1')->group(function () {

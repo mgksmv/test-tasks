@@ -1,0 +1,47 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.modal {
+  display: block;
+}
+
+.modal-content {
+  z-index: 10;
+}
+
+.task {
+  cursor: pointer;
+
+  &:hover {
+    background-color: #eaeaea !important;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.30);
+}
+
+.toast {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+}
+
+.transparent {
+  opacity: 50%;
+  pointer-events: none;
+}
